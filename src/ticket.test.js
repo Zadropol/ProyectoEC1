@@ -38,4 +38,10 @@ describe("Ticket", () => {
     expect(ticket.ConsultarCosto()).toBe(80);
   }); 
 
+  it("Deberia mostrar un caldulo de Costo Normal", ()  => {
+    const ticket = new Ticket("10:00");
+    const costo = ticket.CalcularCosto("10:30");
+    expect(costo).toBe("10.00");
+  });
+
 });

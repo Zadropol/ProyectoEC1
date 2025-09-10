@@ -114,12 +114,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "9771bd52aae638a1b3cfe78de70dcf78f9a6e2e0",
     "author": "Adrian Rodriguez",
     "commit": {
       "date": "2025-09-10T16:50:26.000Z",
       "message": "feat: en caso de perdida si se consulta el precio, se muestra el precio de 80",
-      "url": "https://github.com/UCB-TallerDeDesarrollo/TDDLabBaseProject/commit/HEAD"
+      "url": "https://github.com/UCB-TallerDeDesarrollo/TDDLabBaseProject/commit/9771bd52aae638a1b3cfe78de70dcf78f9a6e2e0"
     },
     "stats": {
       "total": 25,
@@ -129,6 +129,25 @@
     },
     "coverage": 94.44,
     "test_count": 6,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Adrian Rodriguez",
+    "commit": {
+      "date": "2025-09-10T18:55:27.000Z",
+      "message": "feat: el codigo muestra el costo de la hora",
+      "url": "https://github.com/UCB-TallerDeDesarrollo/TDDLabBaseProject/commit/HEAD"
+    },
+    "stats": {
+      "total": 11,
+      "additions": 11,
+      "deletions": 0,
+      "date": "2025-09-10"
+    },
+    "coverage": 94.74,
+    "test_count": 7,
     "failed_tests": 0,
     "conclusion": "success"
   }

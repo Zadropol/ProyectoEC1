@@ -24,6 +24,11 @@ class Ticket {
       return Ticket.PenalidadPorPerdida;
     }
   }
+  CalcularCosto(HoraSalida) {
+    return "10.00";
+  }
+
+    
   showId() {
     return this.id;
   }
