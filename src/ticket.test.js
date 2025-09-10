@@ -3,7 +3,8 @@ const Ticket = require("./ticket.js");
 describe("Ticket", () => {
   it("debería mostrar un ticket con el id de 1", () => {
     const ticket = new Ticket();
-    expect(ticket.id).toBe(1);
+    const ticket2 = new Ticket();
+    expect(ticket2.id).toBe(2);
   });
 
   it("deberia poder registrar la hora de ingreso del ticket", () => {
@@ -24,4 +25,17 @@ describe("Ticket", () => {
     ticket.perdido = true;
     expect(ticket.MensajePenalidad).toBe("Aviso: En caso de perdiad, se apliacra una penalidad de Bs. 80");
   });
+
+  it("deberia poder marcar el ticket como perdido", () => {
+    const ticket = new Ticket("10:00");
+    ticket.MarcarComoPerdido();
+    expect(ticket.perdido).toBe(true);
+  });
+
+  it("Si el ticket esta perdido, deberia mostrar el precio de la penalidad", ()  => {
+    const ticket = new Ticket("10:00");
+    ticket.MarcarComoPerdido();
+    expect(ticket.ConsultarCosto()).toBe(80);
+  }); 
+
 });

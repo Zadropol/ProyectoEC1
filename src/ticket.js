@@ -14,6 +14,15 @@ class Ticket {
     this.tarifaNocturna = Ticket.tarifaNocturna;
     this.tarifaDiario = Ticket.tarifaDiario;
     this.MensajePenalidad = "Aviso: En caso de perdiad, se apliacra una penalidad de Bs. " + Ticket.PenalidadPorPerdida;
+    this.perdido = false;
+  }
+  MarcarComoPerdido() {
+    this.perdido = true;
+  }
+  ConsultarCosto() {
+    if (this.perdido) {
+      return Ticket.PenalidadPorPerdida;
+    }
   }
   showId() {
     return this.id;
