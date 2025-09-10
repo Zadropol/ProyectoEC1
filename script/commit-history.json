@@ -57,12 +57,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "3ec391dfa4c648cbeda601a324651e8b722f3778",
     "author": "Adrian Rodriguez",
     "commit": {
       "date": "2025-09-10T16:32:58.000Z",
       "message": "feat: muestra las tarifas que ofrece el ticket",
-      "url": "https://github.com/UCB-TallerDeDesarrollo/TDDLabBaseProject/commit/HEAD"
+      "url": "https://github.com/UCB-TallerDeDesarrollo/TDDLabBaseProject/commit/3ec391dfa4c648cbeda601a324651e8b722f3778"
     },
     "stats": {
       "total": 9,
@@ -72,6 +72,25 @@
     },
     "coverage": 85.71,
     "test_count": 3,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Adrian Rodriguez",
+    "commit": {
+      "date": "2025-09-10T16:36:36.000Z",
+      "message": "feat: se agrego un mensaje de aviso en caso de perdida",
+      "url": "https://github.com/UCB-TallerDeDesarrollo/TDDLabBaseProject/commit/HEAD"
+    },
+    "stats": {
+      "total": 7,
+      "additions": 7,
+      "deletions": 0,
+      "date": "2025-09-10"
+    },
+    "coverage": 87.5,
+    "test_count": 4,
     "failed_tests": 0,
     "conclusion": "success"
   }

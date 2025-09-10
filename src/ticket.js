@@ -5,6 +5,7 @@ class Ticket {
     this.tarifaBase = 10;
     this.tarifaNocturna = 6;
     this.tarifaDiario = 50;
+    this.MensajePenalidad = "Aviso: En caso de perdiad, se apliacra una penalidad de Bs. 80";
   }
   showId() {
     return this.id;

@@ -18,4 +18,10 @@ describe("Ticket", () => {
     expect(ticket.tarifaNocturna).toBe(6);
     expect(ticket.tarifaDiario).toBe(50);
   });
+
+  it("debería mostrar mensaje de penalidad en caso de perdida", () => {
+    const ticket = new Ticket("10:00");
+    ticket.perdido = true;
+    expect(ticket.MensajePenalidad).toBe("Aviso: En caso de perdiad, se apliacra una penalidad de Bs. 80");
+  });
 });
