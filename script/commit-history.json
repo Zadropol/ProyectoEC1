@@ -1,11 +1,11 @@
 [
   {
-    "sha": "HEAD",
+    "sha": "d2c473709f636e53d956eee2f97ff7d8b4e42fcd",
     "author": "Adrian Rodriguez",
     "commit": {
       "date": "2025-09-10T13:54:14.000Z",
       "message": "Primer commit",
-      "url": "https://github.com/UCB-TallerDeDesarrollo/TDDLabBaseProject/commit/HEAD"
+      "url": "https://github.com/UCB-TallerDeDesarrollo/TDDLabBaseProject/commit/d2c473709f636e53d956eee2f97ff7d8b4e42fcd"
     },
     "stats": {
       "total": 0,
@@ -14,6 +14,25 @@
       "date": "2025-09-10"
     },
     "coverage": 100,
+    "test_count": 1,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Adrian Rodriguez",
+    "commit": {
+      "date": "2025-09-10T15:17:54.000Z",
+      "message": "feat: se crea una clase ticket con un id igual a 1",
+      "url": "https://github.com/UCB-TallerDeDesarrollo/TDDLabBaseProject/commit/HEAD"
+    },
+    "stats": {
+      "total": 34,
+      "additions": 20,
+      "deletions": 14,
+      "date": "2025-09-10"
+    },
+    "coverage": 66.67,
     "test_count": 1,
     "failed_tests": 0,
     "conclusion": "success"
