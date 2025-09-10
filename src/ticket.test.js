@@ -12,4 +12,10 @@ describe("Ticket", () => {
     expect(ticket.HoraIngreso).toBe(ingreso);
   });
 
+  it("debería mostrar las tarifas en el ticket", () => {
+    const ticket = new Ticket("10:00");
+    expect(ticket.tarifaBase).toBe(10);
+    expect(ticket.tarifaNocturna).toBe(6);
+    expect(ticket.tarifaDiario).toBe(50);
+  });
 });
