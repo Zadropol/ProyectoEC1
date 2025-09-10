@@ -76,12 +76,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "d4d0744d5f9a126d23bfd88eb437e6abc8da91fa",
     "author": "Adrian Rodriguez",
     "commit": {
       "date": "2025-09-10T16:36:36.000Z",
       "message": "feat: se agrego un mensaje de aviso en caso de perdida",
-      "url": "https://github.com/UCB-TallerDeDesarrollo/TDDLabBaseProject/commit/HEAD"
+      "url": "https://github.com/UCB-TallerDeDesarrollo/TDDLabBaseProject/commit/d4d0744d5f9a126d23bfd88eb437e6abc8da91fa"
     },
     "stats": {
       "total": 7,
@@ -90,6 +90,25 @@
       "date": "2025-09-10"
     },
     "coverage": 87.5,
+    "test_count": 4,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Adrian Rodriguez",
+    "commit": {
+      "date": "2025-09-10T16:42:06.000Z",
+      "message": "Refactor: se genera un id unico y se centralizan las variables de los precios",
+      "url": "https://github.com/UCB-TallerDeDesarrollo/TDDLabBaseProject/commit/HEAD"
+    },
+    "stats": {
+      "total": 18,
+      "additions": 13,
+      "deletions": 5,
+      "date": "2025-09-10"
+    },
+    "coverage": 92.86,
     "test_count": 4,
     "failed_tests": 0,
     "conclusion": "success"
