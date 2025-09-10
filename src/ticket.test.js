@@ -44,4 +44,21 @@ describe("Ticket", () => {
     expect(costo).toBe("10.00");
   });
 
+  it("deberia aplicar tarifa nocturna despues de las 18:00", ()  => {
+    const ticket = new Ticket("18:00");
+    const costo = ticket.CalcularCosto("20:00");
+    expect(costo).toBe("12.00");
+  });
+
+  it("deberia calcular el costo para 2 horas", ()  => {
+    const ticket = new Ticket("10:00");
+    const costo = ticket.CalcularCosto("12:00");
+    expect(costo).toBe("20.00");
+  });
+
+  it("Deberia aplicar tope diario", ()  => {
+    const ticket = new Ticket("08:00");
+    const costo = ticket.CalcularCosto("20:00");
+    expect(costo).toBe("50.00");
+  });
 });
