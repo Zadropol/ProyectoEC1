@@ -133,12 +133,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "6b702e27f9f0732a3fa67332ef68230cf93fcc7e",
     "author": "Adrian Rodriguez",
     "commit": {
       "date": "2025-09-10T18:55:27.000Z",
       "message": "feat: el codigo muestra el costo de la hora",
-      "url": "https://github.com/UCB-TallerDeDesarrollo/TDDLabBaseProject/commit/HEAD"
+      "url": "https://github.com/UCB-TallerDeDesarrollo/TDDLabBaseProject/commit/6b702e27f9f0732a3fa67332ef68230cf93fcc7e"
     },
     "stats": {
       "total": 11,
@@ -147,6 +147,25 @@
       "date": "2025-09-10"
     },
     "coverage": 94.74,
+    "test_count": 7,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Adrian Rodriguez",
+    "commit": {
+      "date": "2025-09-10T19:08:53.000Z",
+      "message": "refactor: Se mejoro la implementacion del calculo normal en base a la hora de salida y entrada, ademas de una funcion qeu convierte las horas en minutos",
+      "url": "https://github.com/UCB-TallerDeDesarrollo/TDDLabBaseProject/commit/HEAD"
+    },
+    "stats": {
+      "total": 46,
+      "additions": 45,
+      "deletions": 1,
+      "date": "2025-09-10"
+    },
+    "coverage": 85.71,
     "test_count": 7,
     "failed_tests": 0,
     "conclusion": "success"
