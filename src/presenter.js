@@ -1,4 +1,4 @@
-import Ticket from "./Ticket.js";
+const Ticket = require("/src/ticket.js");
 
 class Presenter {
   constructor() {

@@ -266,17 +266,36 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "afd43a64f8b0d401c1ed533bbaf0f4ce82f8841e",
     "author": "Adrian Rodriguez",
     "commit": {
       "date": "2025-09-11T04:36:33.000Z",
       "message": "fix: se corrigio la P de presenter",
-      "url": "https://github.com/UCB-TallerDeDesarrollo/TDDLabBaseProject/commit/HEAD"
+      "url": "https://github.com/UCB-TallerDeDesarrollo/TDDLabBaseProject/commit/afd43a64f8b0d401c1ed533bbaf0f4ce82f8841e"
     },
     "stats": {
       "total": 2,
       "additions": 1,
       "deletions": 1,
+      "date": "2025-09-11"
+    },
+    "coverage": 92.86,
+    "test_count": 13,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Adrian Rodriguez",
+    "commit": {
+      "date": "2025-09-11T04:44:16.000Z",
+      "message": "fix: se corrigieron las importaciones",
+      "url": "https://github.com/UCB-TallerDeDesarrollo/TDDLabBaseProject/commit/HEAD"
+    },
+    "stats": {
+      "total": 4,
+      "additions": 2,
+      "deletions": 2,
       "date": "2025-09-11"
     },
     "coverage": 92.86,
