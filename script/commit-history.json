@@ -247,17 +247,36 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "14325a73824f0f0a1a923f138fb51aa5cefa67ca",
     "author": "Adrian Rodriguez",
     "commit": {
       "date": "2025-09-11T04:28:30.000Z",
       "message": "style: se implemento un presenter.js y un index.html al codigo",
-      "url": "https://github.com/UCB-TallerDeDesarrollo/TDDLabBaseProject/commit/HEAD"
+      "url": "https://github.com/UCB-TallerDeDesarrollo/TDDLabBaseProject/commit/14325a73824f0f0a1a923f138fb51aa5cefa67ca"
     },
     "stats": {
       "total": 126,
       "additions": 105,
       "deletions": 21,
+      "date": "2025-09-11"
+    },
+    "coverage": 92.86,
+    "test_count": 13,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Adrian Rodriguez",
+    "commit": {
+      "date": "2025-09-11T04:36:33.000Z",
+      "message": "fix: se corrigio la P de presenter",
+      "url": "https://github.com/UCB-TallerDeDesarrollo/TDDLabBaseProject/commit/HEAD"
+    },
+    "stats": {
+      "total": 2,
+      "additions": 1,
+      "deletions": 1,
       "date": "2025-09-11"
     },
     "coverage": 92.86,
