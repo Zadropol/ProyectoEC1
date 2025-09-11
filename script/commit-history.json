@@ -171,12 +171,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "75031e9598c380cc1d87fb63610ff94725272fb5",
     "author": "Adrian Rodriguez",
     "commit": {
       "date": "2025-09-10T19:20:08.000Z",
       "message": "feat: el codigo permite calcular el costo base, en horas normales, el costo nocturno, y el tope Horario",
-      "url": "https://github.com/UCB-TallerDeDesarrollo/TDDLabBaseProject/commit/HEAD"
+      "url": "https://github.com/UCB-TallerDeDesarrollo/TDDLabBaseProject/commit/75031e9598c380cc1d87fb63610ff94725272fb5"
     },
     "stats": {
       "total": 17,
@@ -188,5 +188,24 @@
     "test_count": 10,
     "failed_tests": 0,
     "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Adrian Rodriguez",
+    "commit": {
+      "date": "2025-09-11T03:49:10.000Z",
+      "message": "feat: el codigo muestra un desglose general",
+      "url": "https://github.com/UCB-TallerDeDesarrollo/TDDLabBaseProject/commit/HEAD"
+    },
+    "stats": {
+      "total": 31,
+      "additions": 29,
+      "deletions": 2,
+      "date": "2025-09-11"
+    },
+    "coverage": 89.13,
+    "test_count": 12,
+    "failed_tests": 1,
+    "conclusion": "failure"
   }
 ]

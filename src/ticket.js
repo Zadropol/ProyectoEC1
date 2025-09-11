@@ -71,6 +71,20 @@ class Ticket {
     this.HoraSalida = HoraSalida;
     return costoTotal.toFixed(2);
   }
+  GenerarDeglose(){
+    if(!this.HoraSalida)
+    {
+      throw new Error("No se puede generar desglose sin hora de salida");
+    }
+
+    const costo = parseFloat(this.CalcularCosto(this.HoraSalida));
+
+    return {
+      totalDiaAnterior : Math.min(costo, Ticket.tarifaDiario).toFixed(2),
+      totalDiaActual : (costo > Ticket.tarifaDiario ? costo - Ticket.tarifaDiario : 0).toFixed(2),
+      totalAplicado : costo > Ticket.tarifaDiario
+    };
+  }
 
     
   showId() {

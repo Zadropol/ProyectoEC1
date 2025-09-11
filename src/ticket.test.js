@@ -2,9 +2,8 @@ const Ticket = require("./ticket.js");
 
 describe("Ticket", () => {
   it("debería mostrar un ticket con el id de 1", () => {
-    const ticket = new Ticket();
     const ticket2 = new Ticket();
-    expect(ticket2.id).toBe(2);
+    expect(ticket2.id).toBe(1);
   });
 
   it("deberia poder registrar la hora de ingreso del ticket", () => {
@@ -60,5 +59,19 @@ describe("Ticket", () => {
     const ticket = new Ticket("08:00");
     const costo = ticket.CalcularCosto("20:00");
     expect(costo).toBe("50.00");
+  });
+
+  it("Deberia validar que hora de salida no sea anterior a entrada", () => {
+    const ticket = new Ticket("10:00");
+    expect(() => {
+      ticket.CalcularCosto("09:00");
+    }).toThrow("Hora de salida no puede ser anterior a la entrada");
+  });
+
+  it("Deberia mostrar un desglose Diario", () => {
+    const ticket = new Ticket("15:00");
+    const desglose = ticket.GenerarDeglose();
+    expect(desglose).toHaveProperty("totalDiaAnterior");
+    expect(desglose).toHaveProperty("totalDiaActual");
   });
 });
