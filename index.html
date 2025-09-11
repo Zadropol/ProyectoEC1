@@ -1,19 +1,44 @@
 <!DOCTYPE html>
-<html xml:lang="es">
+<html lang="es">
   <head>
-    <title>Sumador</title>
+    <meta charset="UTF-8" />
+    <title>Parqueo - Simulador</title>
   </head>
   <body>
-    <h1>Sumador</h1>
-    <form id="sumar-form">
-      <label for="primer-numero">Primer número:</label>
-      <input type="number" id="primer-numero" />
-      <label for="segundo-numero">Segundo número:</label>
-      <input type="number" id="segundo-numero" />
-      <input type="submit" value="Sumar" id="sumar-button" />
-    </form>
-    <div id="resultado-div"></div>
+    <h1>Simulador de Parqueo</h1>
 
-    <script type="module" src="./src/presenter.js"></script>
+    <section>
+      <h2>Solicitar Ticket</h2>
+      <form id="form-ticket">
+        <label for="hora-ingreso">Hora de ingreso:</label>
+        <input type="text" id="hora-ingreso" placeholder="HH:MM" />
+        <input type="submit" value="Crear Ticket" />
+      </form>
+      <div id="ticket-info"></div>
+    </section>
+
+    <section>
+      <h2>Retirar Movilidad</h2>
+      <form id="form-salida">
+        <label for="ticket-id-salida">ID Ticket:</label>
+        <input type="number" id="ticket-id-salida" />
+        <label for="hora-salida">Hora de salida:</label>
+        <input type="text" id="hora-salida" placeholder="HH:MM" />
+        <input type="submit" value="Calcular Costo" />
+      </form>
+      <div id="costo-info"></div>
+    </section>
+
+    <section>
+      <h2>Reportar Pérdida</h2>
+      <form id="form-perdida">
+        <label for="ticket-id-perdida">ID Ticket:</label>
+        <input type="number" id="ticket-id-perdida" />
+        <input type="submit" value="Reportar" />
+      </form>
+      <div id="perdida-info"></div>
+    </section>
+
+    <script type="module" src="./src/Presenter.js"></script>
   </body>
 </html>
