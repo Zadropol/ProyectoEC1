@@ -74,4 +74,9 @@ describe("Ticket", () => {
     expect(costo).toBe("10.00");
   });
 
+  it("Debe calcular costo combinando la tarifa diurna y nocturna", () =>{
+    const ticket = new Ticket("17:00");
+    const costo = ticket.CalcularCosto("19:00");
+    expect(costo).toBe("16.00");
+  });
 });

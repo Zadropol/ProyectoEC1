@@ -209,12 +209,12 @@
     "conclusion": "failure"
   },
   {
-    "sha": "HEAD",
+    "sha": "9dd5039d1d593d7dec28c6852761d507bba2ce4c",
     "author": "Adrian Rodriguez",
     "commit": {
       "date": "2025-09-11T04:16:17.000Z",
       "message": "feat: el codigo convierte menos de 1 hora a la tarifa normal",
-      "url": "https://github.com/UCB-TallerDeDesarrollo/TDDLabBaseProject/commit/HEAD"
+      "url": "https://github.com/UCB-TallerDeDesarrollo/TDDLabBaseProject/commit/9dd5039d1d593d7dec28c6852761d507bba2ce4c"
     },
     "stats": {
       "total": 24,
@@ -224,6 +224,25 @@
     },
     "coverage": 92.86,
     "test_count": 12,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Adrian Rodriguez",
+    "commit": {
+      "date": "2025-09-11T04:21:15.000Z",
+      "message": "feat el codigo calcula los costos combinando tarifa diurna y nocturna",
+      "url": "https://github.com/UCB-TallerDeDesarrollo/TDDLabBaseProject/commit/HEAD"
+    },
+    "stats": {
+      "total": 5,
+      "additions": 5,
+      "deletions": 0,
+      "date": "2025-09-11"
+    },
+    "coverage": 92.86,
+    "test_count": 13,
     "failed_tests": 0,
     "conclusion": "success"
   }
