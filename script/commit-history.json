@@ -190,12 +190,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "deadecb5771ab6d059888805fcbc6fe43a81c9ea",
     "author": "Adrian Rodriguez",
     "commit": {
       "date": "2025-09-11T03:49:10.000Z",
       "message": "feat: el codigo muestra un desglose general",
-      "url": "https://github.com/UCB-TallerDeDesarrollo/TDDLabBaseProject/commit/HEAD"
+      "url": "https://github.com/UCB-TallerDeDesarrollo/TDDLabBaseProject/commit/deadecb5771ab6d059888805fcbc6fe43a81c9ea"
     },
     "stats": {
       "total": 31,
@@ -207,5 +207,24 @@
     "test_count": 12,
     "failed_tests": 1,
     "conclusion": "failure"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Adrian Rodriguez",
+    "commit": {
+      "date": "2025-09-11T04:16:17.000Z",
+      "message": "feat: el codigo convierte menos de 1 hora a la tarifa normal",
+      "url": "https://github.com/UCB-TallerDeDesarrollo/TDDLabBaseProject/commit/HEAD"
+    },
+    "stats": {
+      "total": 24,
+      "additions": 5,
+      "deletions": 19,
+      "date": "2025-09-11"
+    },
+    "coverage": 92.86,
+    "test_count": 12,
+    "failed_tests": 0,
+    "conclusion": "success"
   }
 ]

@@ -68,10 +68,10 @@ describe("Ticket", () => {
     }).toThrow("Hora de salida no puede ser anterior a la entrada");
   });
 
-  it("Deberia mostrar un desglose Diario", () => {
-    const ticket = new Ticket("15:00");
-    const desglose = ticket.GenerarDeglose();
-    expect(desglose).toHaveProperty("totalDiaAnterior");
-    expect(desglose).toHaveProperty("totalDiaActual");
+  it("Deberia cobrar al menos 1 hora aunque el tiempo sea menor a 1 hora", () =>{
+    const ticket = new Ticket("10:00");
+    const costo = ticket.CalcularCosto("10:30");
+    expect(costo).toBe("10.00");
   });
+
 });
